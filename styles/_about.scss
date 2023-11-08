@@ -1,0 +1,243 @@
+#about-main {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    // max-width: 1920px;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+
+    .about-container{
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: row;
+        gap: 42px;
+        height: 100%;
+        flex-direction: column;
+        min-height: 100vh;
+        padding-left: 36px;
+        width: 80%;
+
+        .heading {
+            font-family: 'Noto Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 58px;
+            line-height: 113%;
+            /* or 45px */
+            position: relative;
+            animation-name: slide-up;
+            animation-duration: 1s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: 1;
+
+            /* dark/text/secondary */
+
+            color: #99A29E;
+        }
+        .desc-wrap{
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            flex-direction: column;
+            gap: 18px;
+            .desc {
+                font-family: 'Noto Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 170%;
+                letter-spacing: 0.02em;
+                color: #ECEEED;
+            }
+
+        }
+           
+         
+
+            .contact-main-container {
+                display: flex;
+                align-items: flex-start;
+                justify-content: center;
+                flex-direction: column;
+                gap: 36px;
+
+                a {
+                    text-decoration: none;
+                }
+
+                .info-container {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 16px;
+                    font-family: 'Orbitron';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 100%;
+                    letter-spacing: 0.095em;
+                    color: #ECEEED;
+                    border-bottom: 2px solid transparent;
+                    transition: 200ms ease-out;
+                 
+
+                    svg {
+                        height: 28px !important;
+                        width: 28px !important;
+
+                     
+
+                        g {
+                            // fill: black;
+                        }
+
+                        circle {
+                            // fill: rgb(31, 36, 33);
+
+                        }
+
+                        rect {
+                            // fill: rgb(31, 36, 33);
+
+                        }
+                    }
+
+                    &:hover {
+                        border-bottom: 2px solid #ECEEED;
+
+                    }
+
+                    button {
+                        display: flex;
+                        cursor: pointer;
+                        align-items: center;
+                        justify-content: center;
+                        gap: 32px;
+                        font-family: 'Orbitron';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 24px;
+                        line-height: 100%;
+                        letter-spacing: 0.095em;
+                        color: #ECEEED;
+                        background-color: transparent;
+                        outline: none;
+                        border: none;
+                    }
+                }
+
+                .contacts-wrap {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: row ;
+                    gap: 32px;
+                }
+            }
+
+
+    }
+
+    @media only screen and (max-height: 790px) {
+        .about-container{
+            margin-top: 80px !important;
+            .desc{
+                font-size:18px !important;
+                
+                // display: none !important;
+            }
+            .contact-main-container{
+                gap: 22px !important;
+                .info-container{
+                font-size:18px !important;
+                    
+                }
+                button{
+                font-size:18px !important;
+
+                }
+            }
+          
+        }
+    }
+    @media only screen and (max-width: 1288px) {
+    .about-container{
+        width: 76% !important;
+        .desc{
+            font-size: 18px !important;
+        }
+        .contact-main-container{
+            .info-container{
+                font-size: 18px !important;
+            }
+            button{
+                font-size: 18px !important;
+
+            }
+            .contacts-wrap{
+                gap: 10px !important;
+                // flex-direction: column !important;
+                align-items: flex-start !important;
+                .info-container{
+                    // gap: 6px !important;
+
+                }
+            }
+        }
+      
+    }
+    
+    }
+    @media only screen and (max-width: 948px) {
+        .about-container{
+            width: 100% !important;
+            min-height: fit-content !important;
+            padding-top: 36px !important; 
+            padding-left: 22px !important;
+            padding-right: 12px !important;
+            margin: 0px !important;
+            gap: 22px !important;
+            .heading{
+                p{
+                    font-size: 44px !important;
+                }
+            }
+            .desc{
+                font-size: 14px !important;
+            }
+           
+            .contact-main-container{
+                gap: 22px !important;
+                .info-container{
+                    font-size: 14px !important;
+                    // gap: 6px !important;
+
+                }
+                button{
+                    font-size: 14px !important;
+
+                }
+            }
+            .contacts-wrap{
+                gap: 22px !important;
+                flex-direction: column !important;
+                align-items: flex-start !important;
+                
+                .info-container{
+                // gap: 6px !important;
+                font-size: 14px !important;
+
+
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 948px) {
+    #about-main{
+        min-height: fit-content !important;
+    }
+}

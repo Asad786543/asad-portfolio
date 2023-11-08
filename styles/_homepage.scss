@@ -1,0 +1,136 @@
+#homepage-main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: row;
+    height: 100%;
+    min-height: 100vh;
+    
+    .homepage-container{
+        position: relative;
+        animation-name: slide-up;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: 1;  
+        width: 82%;
+        // width: 120%;
+    padding-left: 36px;
+
+        gap: 32px;
+        margin-top: 100px;
+        display: flex;
+    // background-color: red;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+        // width: fit-content;
+        .desc{
+            font-family: 'Noto Sans';
+            
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 170%;
+            letter-spacing: 0.02em;
+            color: #ECEEED;
+            padding-right: 6px;
+            // text-wrap: balance;
+        }
+        .homepage-icon{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            max-width: 864px;
+
+        }
+    }
+    @media only screen and (max-height: 790px) {
+        .homepage-container{
+            margin-top: 80px !important;
+            p{
+                font-size:18px !important;
+                
+                // display: none !important;
+            }
+          
+        }
+    }
+    @media only screen and (max-height: 700px) {
+        .homepage-container{
+            .homepage-icon{
+                img{
+                        width: 120px !important;
+                }
+            }
+        }
+    }
+    @media only screen and (max-width: 1854px) {
+
+        
+        .homepage-container{
+            p{
+                font-size: 20px !important;
+            }
+          
+        }
+    }
+  
+    @media only screen and (max-width: 1560px) {
+       
+            .homepage-container{
+                // gap: 18px !important;
+                p{
+                    // font-size:16px !important;
+                }
+            }
+    }
+    @media only screen and (max-width: 1468px) {
+                .homepage-container{
+                        gap: 18px !important;
+                        width: 76% !important;
+                p{
+                    font-size:16px !important;
+                    color: red ;
+                }
+                }
+    }
+   
+           
+            @media only screen and (max-width: 1080px) {
+                .homepage-container{
+
+                }
+            }
+            @media only screen and (max-width: 948px) {
+                .homepage-container{
+                    padding: 0px !important;
+                    width: 100% !important;
+                    margin-top: 26px !important;
+                    padding-right: 12px !important;
+        
+                        p{
+                            padding-right: 0px !important;
+                        }
+                }
+            }
+            @media only screen and (max-width: 440px) {
+                .homepage-container{
+                    .homepage-container{
+                        p{
+                            font-size: 16px !important;
+                        }
+                
+                    }
+                }
+            }
+}
+@media only screen and (max-width: 948px) {
+    #homepage-main{
+        min-height: fit-content !important;
+        width: 100% !important;
+        margin-left: 12px !important;
+    }
+}

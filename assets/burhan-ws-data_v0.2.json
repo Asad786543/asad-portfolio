@@ -1,0 +1,162 @@
+{ 
+    "0": {
+        "_id": 0,
+        "title": "Melonbox",
+        "about": "MelonBox is a beauty based subscription box service which helps you build your dream beauty collection without breaking your bank account. Get 10 full-size best selling and trendy products in the price of one, straight to your door, More glam for less money!",
+        "url": "https://www.melonbox.store",
+        "sector": [
+            "E-commerce"
+        ],
+        "scope": [
+            
+            "Front-End Development",
+            "Back-End Development"
+        ],
+        "location": "Pakistan",
+        "details": [
+            {
+                "type": "text",
+                "content": "Melonbox began as a small page on Instagram, which served as the main platform for selling their products. As time passed, Melonbox's popularity grew rapidly, attracting a couple of hundred followers initially and now boasting a significant following of 86K. With their customer base continually expanding, Melonbox needed a new online platform to cater to their audience's needs."
+            },
+            {
+                "type": "image",
+                "url": "/project-images/melonbox/melonbox_img_1.png",
+                "title": null
+            },
+            {
+                "type": "text",
+                "content": "That's when they approached me to build a website that functions seamlessly across all platforms and enables users to maintain a cart, add items to their Wishlist, and purchase products without signing up. The website had to be minimalist and highly user-friendly. I chose to use React for the front-end and hosted it on Vercel to ensure it was highly responsive and fast. Overall, it was a fascinating project, and the clients were delighted with the final result."
+            },
+            {
+                "type": "image",
+                "url": "/project-images/melonbox/melonbox_img_2.png",
+                "title": "Melonbox.com, fully optimized for mobile!"
+            },
+            {
+                "type": "image",
+                "url": "/project-images/melonbox/melonbox_img_3.png",
+                "title": null
+            }
+        ]
+    },
+    "1": {
+        "_id": 1,
+        "title": "Fireclaw",
+        "about": "Fireclaw Ukraine is a Ukrainian comics, books, and games publisher.",
+        "url": "https://fireclaw.com.ua",
+        "sector": [
+            "E-commerce",
+            "Commerce SAAS"
+        ],
+        "scope": [
+            
+            "Front-End Development"
+        ],
+        "location": "Italy",
+        "details": [
+            {
+                "type": "text",
+                "content": "Team Fireclaw approached me to assist them in improving their existing website. Despite having a significant number of visitors, they were not converting into clients. After conducting some usability and general assessments, it became apparent that a new website was necessary as the existing one had major issues. I got to work with my tools and presented them with an overhauled Fireclaw website. They were pleased with the results and were planning on launching an English version of their site, which would host web novels instead of physical novels as on the original Ukrainian version."
+            },
+            {
+                "type": "image",
+                "url": "/project-images/fireclaw/fireclaw_img_1.png",
+                "title": null
+            },
+            {
+                "type": "text"
+                
+            },
+            {
+                "type": "image",
+                "url": "/project-images/fireclaw/fireclaw_img_2.png",
+                "title": "Episode listings page for the English version"
+            },
+            {
+                "type": "image",
+                "url": "/project-images/fireclaw/fireclaw_img_3.png",
+                "title": "Despite the heavy animations, I was able to fully optimize the site for most modern mobile devices."
+            }
+        ]
+    }, 
+    "2": {
+        "_id": 2,
+        "title": "Eagleup Website",
+        "about": "Eagleup up is an upcoming  Tabletop Videogame RPG hybrid.",
+        "url": null,
+        "sector": [
+            "Marketing Website"
+        ],
+        "scope": [
+            "Front-End Development"
+        ],
+        "location": "Italy",
+        "details": [
+            {
+                "type": "text",
+                "content": "Following my successful completion of Project Fireclaw, I was assigned with the responsibility of creating a new website for the company. The purpose of this website would be to serve as the primary platform for their upcoming VTT (Virtual Tabletop) video game hybrid."
+            },
+            {
+                "type": "image",
+                "url": "/project-images/eagleup-website/eagleup_ws_img_1.png",
+                "title": null
+            }
+        ]
+    },
+    "3": {
+        "_id": 3,
+        "title": "Eagleup Game",
+        "about": "Eagleup up is an upcoming  Tabletop Videogame RPG hybrid.",
+        "url": null,
+        "sector": [
+            "Marketing Website"
+        ],
+        "scope": [
+            "Front-End Development"
+        ],
+        "location": "Italy",
+        "details": [
+            {
+                "type": "text",
+                "content": "While still a work in development, I have prepared several design elements for the game, including style guides, lobby screens, HUD designs and etc."
+            },
+           
+           
+            {
+                "type": "image",
+                "url": "/project-images/eagleup-game/eagleup_game_img_1.png",
+                "title": null
+            },
+            {
+                "type": "image",
+                "url": "/project-images/eagleup-game/eagleup_game_img_2.png",
+                "title": null
+            },
+            {
+                "type": "image",
+                "url": "/project-images/eagleup-game/eagleup_game_img_3.png",
+                "title": null
+            },
+            {
+                "type": "image",
+                "url": "/project-images/eagleup-game/eagleup_game_img_4.png",
+                "title": null
+            },
+            {
+                "type": "image",
+                "url": "/project-images/eagleup-game/eagleup_game_img_5.png",
+                "title": null
+            },
+            {
+                "type": "image",
+                "url": "/project-images/eagleup-game/eagleup_game_img_6.png",
+                "title": null
+            },
+            {
+                "type": "image",
+                "url": "/project-images/eagleup-game/eagleup_game_img_7.png",
+                "title": null
+            }
+        ]
+    }
+}
