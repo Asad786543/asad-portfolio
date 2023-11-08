@@ -40,7 +40,9 @@ const layout = ({ children }) => {
             }}
             transition={{ duration: 0.6, type: 'easeIn', damping: 8, stiffness: 30 }}
         >
-          <Image src="/burhan_website11.webp " alt="My Image"
+          <Image 
+            src="/burhan_website11.webp" 
+            alt="My Image"
             width={800}
             height={600}
             placeholder="blur"
