@@ -19,7 +19,7 @@ const home = () => {
                 </div>
                
             </div>
-            // </Layout>
+             </Layout>
   )
 }
 
