@@ -42,7 +42,7 @@ const layout = ({ children }) => {
         >
           <Image 
             placeholder="blur"
-            src="/burhan_website11.webp" 
+            src="/burhan_website11.webp"
             alt="My Image"
             width={800}
             height={600}
