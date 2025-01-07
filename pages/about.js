@@ -23,7 +23,7 @@ const about = () => {
 
 						
 
-						  I started my tech career back in 2019 as an intern, learning frontend development. Since then, I've worked at several companies, building everything from chrome extensions to SaaS platforms, websites, apps, and even AI web apps. My main focus is full-stack development with Next.js and React.js, but I can tackle almost any project that comes my way. After gaining all this experience, I laid the foundation of <a href="https://www.web-metric.co/" target='_blank'>WebMetric</a> to deliver high-quality, innovative solutions to clients and take on new challenges!
+						  I started my tech career back in 2019 as an intern, learning frontend development. Since then, I&apos;ve worked at several companies, building everything from chrome extensions to SaaS platforms, websites, apps, and even AI web apps. My main focus is full-stack development with Next.js and React.js, but I can tackle almost any project that comes my way. After gaining all this experience, I laid the foundation of <a href="https://www.web-metric.co/" target='_blank'>WebMetric</a> to deliver high-quality, innovative solutions to clients and take on new challenges!
 
         </p>
            
