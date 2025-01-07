@@ -4,22 +4,21 @@ import Layout from './components/layout.js'
 const home = () => {
   return (
     <Layout>
-    <div id="homepage-main">
-                <div className="homepage-container">
+            <div id="homepage-main">
+              <div className="homepage-container">
                 <p className="desc">
-                Welcome to my portfolio website! I&apos;m Burhan, the Co-Founder and CEO of WebMetric, a software development agency specializing in project management and software delivery. With a strong foundation in software engineering principles and best practices, I lead our team in delivering high-quality, maintainable, and scalable projects.
+					  Welcome to my portfolio! I'm Syed Burhan, CTO of <a href="https://www.web-metric.co/" target='_blank'>WebMetric</a>. With over 5 years of experience, I've worked on high-quality SaaS and AI web apps, specializing in both development and product design.
 
                 </p>
                 <p className="desc">
-                As the head of WebMetric, my role is to ensure that your software development initiatives are executed flawlessly. Whether it&apos;s managing project timelines, resources, or overseeing the development process, I&apos;m dedicated to making your projects a success. Feel free to explore my portfolio to see examples of my successful project deliveries.
+					  Now, as the founder of <a href="https://www.web-metric.co/" target='_blank'>WebMetric</a>, I lead a team delivering top-tier solutions and ensuring client satisfaction every step of the way. Check out the <a href="/about">About</a> page to learn more about me or visit the <a href="/work" >Work</a> page to explore my projects.
                 </p>
                 <div className="homepage-icon">
                     <img src="/home-icon.svg" alt="" />
                 </div>
-                </div>
-               
+                </div>   
             </div>
-             </Layout>
+    </Layout>
   )
 }
 

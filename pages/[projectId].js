@@ -155,7 +155,7 @@ const ProjectDetail = ({ project }) => {
                 }
               </div>
             </div>
-            <div className="side-section-container">
+            {/* <div className="side-section-container">
               <div className="side-section-heading">
                 <p>
                   SECTOR
@@ -168,8 +168,8 @@ const ProjectDetail = ({ project }) => {
 
 
               </div>
-            </div>
-            <div className="side-section-container">
+            </div> */}
+            {/* <div className="side-section-container">
               <div className="side-section-heading">
                 <p>
                   SCOPE
@@ -180,7 +180,7 @@ const ProjectDetail = ({ project }) => {
                 {projectsData[project._id].scope.map((element, index) => { return <p key={index}>{element}</p> })}
 
               </div>
-            </div>
+            </div> */}
             <div className="side-section-container">
               <div className="side-section-heading">
                 <p> LOCATION</p>

@@ -205,6 +205,9 @@
   color: #ECEEED;
   padding-right: 6px;
 }
+#homepage-main .homepage-container .desc a {
+  color: #ECEEED;
+}
 #homepage-main .homepage-container .homepage-icon {
   display: flex;
   align-items: center;
@@ -713,6 +716,9 @@ main {
   letter-spacing: 0.02em;
   color: #ECEEED;
 }
+#about-main .about-container .desc-wrap .desc a {
+  color: #ECEEED;
+}
 #about-main .about-container .contact-main-container {
   display: flex;
   align-items: flex-start;
@@ -1082,4 +1088,4 @@ main {
   #project-detail-main .project-detail-container .content-container .main-break {
     display: flex;
   }
-}/*# sourceMappingURL=main.css.map */
+}
