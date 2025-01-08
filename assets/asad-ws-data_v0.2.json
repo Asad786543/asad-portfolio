@@ -1,0 +1,102 @@
+{ 
+    "0": {
+        "_id": 0,
+        "title": "GlanceAI",
+        "about": "GlanceAI is an AI Chrome extension that provides key takeaways, summaries, and related links directly on webpages for efficient browsing.",
+        "url": "https://www.glanceai.io/",
+        "sector": [
+            "E-commerce"
+        ],
+        "scope": [
+            
+            "Front-End Development",
+            "Back-End Development"
+        ],
+        "location": "UK",
+        "details": [
+            {
+                "type": "text",
+                "content": "I created an AI-powered Chrome extension that enhances web browsing by providing key takeaways, summaries, AI chat, and related links directly on the page. The goal was to streamline the user's online experience, allowing them to quickly extract relevant information without leaving the site. By focusing on simplicity and usability, I developed a tool that transforms how users interact with content, making research and reading more efficient."
+            },
+            {
+                "type": "image",
+                "url": "/project-images/glanceai/glanceai.png",
+                "title": null
+            }
+        ]
+    },
+    "1": {
+        "_id": 1,
+        "title": "Lead Scotland",
+        "about": "Lead Scotland is a national charity focused on empowering disabled individuals and carers through personalized learning, befriending programs, and advice services. They aim to promote inclusion, independence, and opportunities for personal and professional growth.",
+        "url": "https://www.lead.org.uk/",
+        "sector": [
+            "E-commerce",
+            "Commerce SAAS"
+        ],
+        "scope": [
+            
+            "Front-End Development"
+        ],
+        "location": "USA",
+        "details": [
+            {
+                "type": "text",
+                "content": "I developed the Lead Scotland website from scratch, focusing on accessibility and user-friendly navigation to support disabled individuals and carers. The platform provides information about services, resources, and opportunities, with a clean design and responsive layout to ensure inclusivity and ease of use."
+            },
+            {
+                "type": "image",
+                "url": "/project-images/scotland/scotland.png",
+                "title": "Despite the heavy animations, I was able to fully optimize the site for most modern mobile devices."
+            }
+        ]
+    }, 
+	"3": {
+		"_id": 3,
+		"title": "Ollacart",
+		"about": "Ollacart is an intuitive and user-friendly online store that seamlessly combines product browsing and purchasing. The website ensures smooth navigation and an efficient shopping experience for customers.",
+		"url": "https://ollacart-kuma1s-projects.vercel.app/",
+		"sector": [
+			"Marketing Website"
+		],
+		"scope": [
+			"Front-End Development"
+		],
+		"location": "USA",
+		"details": [
+			{
+				"type": "text",
+				"content": "This landing page was created to promote the Ollacart Chrome extension, designed to enhance the online shopping experience for users. The goal was to clearly communicate the extension’s value by highlighting its key features, such as effortless product discovery, automated deal alerts, and time-saving tools. The clean and modern design ensures a user-friendly experience, with easy navigation and clear calls to action for users to download the extension. The page is optimized for conversions, focusing on both the functional benefits and visual appeal to drive user engagement and extension adoption."
+			},
+			{
+				"type": "image",
+				"url": "/project-images/ollacart/ollacart.png",
+				"title": null
+			}
+		]
+	},
+	"4": {
+		"_id": 4,
+		"title": "Unbeatable Loans",
+		"about": "Unbeatable Loans is a powerful Chrome extension designed to help users find the best loan offers and monitor interest rates in real time. The landing page effectively highlights the extension’s core features and benefits for loan seekers.",
+		"url": "https://unbeatable-loans.vercel.app/",
+		"sector": [
+			"Marketing Website"
+		],
+		"scope": [
+			"Front-End Development"
+		],
+		"location": "USA",
+		"details": [
+			{
+				"type": "text",
+				"content": "The Unbeatable Loans landing page was created to promote a Chrome extension aimed at providing users with the best loan options available while helping them track fluctuating interest rates. The page’s design focuses on clarity, showcasing key features like personalized loan recommendations, interest rate tracking, and comparison tools. The layout is clean and intuitive, guiding users through the benefits of the extension and encouraging them to download it for immediate access. The page includes strong calls to action and testimonials to boost credibility, while its responsive design ensures an optimized experience on all devices, ultimately driving higher user engagement and downloads."
+			},
+			{
+				"type": "image",
+				"url": "/project-images/unbeatable/unbeatable.png",
+				"title": null
+			}
+		]
+	}
+}

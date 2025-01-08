@@ -23,7 +23,7 @@
         .section-two {
             width: 36%;
             // min-width: 633px;
-            background: #23FA4B;
+            background: #9D7E52;
             height: 100%;
 
             min-height: 100vh;
@@ -45,8 +45,8 @@
                 border-radius: 0px 64px 0px 0px;
                 object-fit: cover;
                 // margin-left: -360px;
-                border-top: 6px solid #198430;
-                border-right: 6px solid #198430;
+                border-top: 6px solid #000000;
+                border-right: 6px solid #000000;
                 cursor: pointer;
                 z-index: 999 !important;
 
@@ -71,7 +71,7 @@
                 writing-mode: vertical-rl;
                 transform: rotate(180deg);
                 // transform: rotate(-90deg);
-                color: #23FA4B;
+                color: #9D7E52;
             }
         }
     }
@@ -183,7 +183,7 @@
                     display: flex !important;
                     width: 187px;
 
-                    background: #23FA4B;
+                    background: #9D7E52;
                     position: absolute;
                     top: 0px;
                     right: 0px;
@@ -203,8 +203,8 @@
                     //   min-width:94%  !important;
                     //   max-height: 100vh !important;
                     border-radius: 0px 32px 0px 0px !important;
-                    border-top: 3px solid #198430 !important;
-                    border-right: 3px solid #198430 !important;
+                    border-top: 3px solid #000000 !important;
+                    border-right: 3px solid #000000 !important;
 
 
 

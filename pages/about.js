@@ -6,7 +6,7 @@ import Layout from './components/layout.js'
 
 
 const about = () => {
-    const email = 'Burhanpasha.work@gmail.com';
+    const email = 'asadhamid786543@gmail.com';
     const subject = 'Inquiry from your portfolio website';
     const body = 'Hello,\n\nI am interested in discussing a Web Development project with you.';
   
@@ -23,7 +23,7 @@ const about = () => {
 
 						
 
-						  I started my tech career back in 2019 as an intern, learning frontend development. Since then, I&apos;ve worked at several companies, building everything from chrome extensions to SaaS platforms, websites, apps, and even AI web apps. My main focus is full-stack development with Next.js and React.js, but I can tackle almost any project that comes my way. After gaining all this experience, I laid the foundation of <a href="https://www.web-metric.co/" target='_blank'>WebMetric</a> to deliver high-quality, innovative solutions to clients and take on new challenges!
+						  I started my tech career back in 2019 as an intern, learning frontend development. Since then, I&apos;ve worked at several companies, building everything from chrome extensions to SaaS platforms, websites, apps, and even AI web apps. My main focus is full-stack development with Next.js and React.js, but I can tackle almost any project that comes my way.
 
         </p>
            
@@ -49,7 +49,7 @@ const about = () => {
 <path d="M29.0394 6.23929L25.2358 2.43929C24.7715 1.97501 24.1501 1.71429 23.4929 1.71429C22.8358 1.71429 22.2144 1.97144 21.7501 2.43929L17.6536 6.52858C17.1894 6.99287 16.9286 7.61787 16.9286 8.27501C16.9286 8.93572 17.1858 9.55358 17.6536 10.0214L20.8536 13.225C20.1247 14.9235 19.0772 16.4668 17.7679 17.7714C16.4572 19.0893 14.9251 20.1286 13.2251 20.8643L10.0251 17.6607C9.56078 17.1964 8.93936 16.9357 8.28221 16.9357C7.95808 16.9345 7.63697 16.998 7.3377 17.1225C7.03842 17.247 6.76701 17.43 6.53936 17.6607L2.43936 21.75C1.97507 22.2143 1.71436 22.8393 1.71436 23.4964C1.71436 24.1572 1.9715 24.775 2.43936 25.2429L6.23936 29.0429C7.03221 29.8357 8.12507 30.2893 9.2465 30.2893C9.47864 30.2893 9.70364 30.2714 9.93221 30.2322C14.6608 29.4536 19.3536 26.9357 23.1429 23.15C26.9286 19.3572 29.4429 14.6643 30.2286 9.93215C30.4536 8.5893 30.0036 7.20715 29.0394 6.23929ZM27.6965 9.50715C27.0001 13.7179 24.7358 17.9179 21.3251 21.3286C17.9144 24.7393 13.7179 27.0036 9.50721 27.7C8.97864 27.7893 8.43578 27.6107 8.05007 27.2286L4.31793 23.4964L8.27507 19.5357L12.5536 23.8214L12.5858 23.8536L13.3572 23.5679C15.6962 22.7079 17.8203 21.3496 19.5822 19.5871C21.3441 17.8246 22.7016 15.7001 23.5608 13.3607L23.8465 12.5893L19.5322 8.27858L23.4894 4.31787L27.2215 8.05001C27.6072 8.43572 27.7858 8.97858 27.6965 9.50715Z" fill="#99A29E"/>
 </svg>
 
-<ReactWhatsapp target="_blank" number="+92 316 0055115" message="Hello, I am interested in discussing a Web Development project with you." >+92 316 0055115</ReactWhatsapp>
+<ReactWhatsapp target="_blank" number="+92 349 5897289" message="Hello, I am interested in discussing a Web Development project with you." >+92 349 5897289</ReactWhatsapp>
 
                </div>
 
@@ -69,7 +69,7 @@ const about = () => {
 {email}
                </div>
                <div className="contacts-wrap">
-               <Link href='https://www.linkedin.com/in/burhan-pasha-7ba346272/' target="_blank">
+               <Link href='https://www.linkedin.com/in/asad-hamid-8858b7292/' target="_blank">
                    <div className="info-container">
                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
   <g clip-path="url(#clip0_302_724)">
@@ -86,7 +86,7 @@ LinkedIN
                    </div>
                    </Link>
                
-                   <Link href='https://www.upwork.com/freelancers/~0127ecdd39f630c864' target="_blank">
+                   <Link href='https://www.upwork.com/freelancers/~01bfeb480b5800a57c' target="_blank">
                    <div className="info-container">
 
                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
@@ -96,7 +96,7 @@ LinkedIN
 UpWork
                    </div>
                    </Link>
-                   <Link href='https://www.fiverr.com/burhanpasha?up_rollout=true' target="_blank">
+                   <Link href='https://www.fiverr.com/users/asad_hamid/' target="_blank">
                    <div className="info-container">
                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
   <g clip-path="url(#clip0_302_717)">

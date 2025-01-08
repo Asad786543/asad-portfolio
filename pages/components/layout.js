@@ -42,7 +42,7 @@ const layout = ({ children }) => {
         >
           <Image 
             placeholder="blur"
-            src="/IMG_0325 (2).jpg"
+            src="/asad-portfolio.webp"
             alt="My Image"
             width={800}
             height={600}
@@ -54,8 +54,8 @@ const layout = ({ children }) => {
           <div className="mobile-background">
 
           </div>
-          <p id="expert-text">expert designer  <br />
-            and developer</p>
+          <p id="expert-text">Creative Coder  <br />
+          and Architect</p>
         </motion.div>
       </div>
     </div>

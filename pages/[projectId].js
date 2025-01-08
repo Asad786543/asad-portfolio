@@ -3,7 +3,7 @@ import Link from 'next/link'
 // import { useEffect } from 'react'
 import Header from './components/Projectheader'
 // import { useRouter } from 'next/router'
-import projectsData from '../assets/burhan-ws-data_v0.2.json'
+import projectsData from '../assets/asad-ws-data_v0.2.json'
 
 import Head from 'next/head'
 import Image from "next/image";
@@ -39,7 +39,7 @@ const ProjectDetail = ({ project }) => {
   return (
     <div id='project-detail-main'>
       <Head>
-        <title>Syed Burhan | Web Dev - Work - {projectsData[project._id].title}</title>
+        <title>ASAD HAMID | Web Dev - Work - {projectsData[project._id].title}</title>
       </Head>
       <Header/>
 

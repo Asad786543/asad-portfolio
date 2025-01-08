@@ -1,5 +1,5 @@
 import React from 'react'
-import projectsData from '../assets/burhan-ws-data_v0.2.json'
+import projectsData from '../assets/asad-ws-data_v0.2.json'
 import Link from 'next/link'
 import Layout from './components/layout.js'
 
