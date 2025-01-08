@@ -42,7 +42,7 @@ const Header = () => {
 			>
 				<div className="header-icon-container" style={
 					{
-						borderBottom: header ? "1px solid #23FA4B" : "0px",
+						borderBottom: header ? "1px solid #9D7E52" : "0px",
 						background: header ? "#010101" : "transparent",
 					}
 				}>

@@ -373,11 +373,11 @@ main {
   transition: 200ms ease-out;
 }
 #header-main .header-container .header-icon-container .header-icon:hover svg path {
-  fill: #23FA4B;
+  fill: #9D7E52;
 }
 #header-main .header-container .header-icon-container .header-icon:hover svg ellipse {
   transition: fill 200ms ease-out;
-  fill: #23FA4B;
+  fill: #9D7E52;
 }
 #header-main .header-container .header-icon-container .mobile-name {
   display: none;
@@ -405,7 +405,7 @@ main {
   color: #eceeed;
   width: -moz-fit-content !important;
   width: fit-content !important;
-  min-width: 340px;
+  min-width: 190px;
   border-bottom: 2px solid transparent;
   transition: 200ms ease-out;
 }
@@ -548,11 +548,11 @@ main {
     transition: 200ms ease-out;
   }
   #header-main .header-container .header-navigation .mobile-icons:hover svg path {
-    fill: #23FA4B;
+    fill: #9D7E52;
   }
   #header-main .header-container .header-navigation .mobile-icons:hover svg ellipse {
     transition: fill 200ms ease-out;
-    fill: #23FA4B;
+    fill: #9D7E52;
   }
 }
 @media only screen and (max-width: 966px) {
@@ -901,7 +901,7 @@ main {
   font-size: 14px;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: #23FA4B;
+  color: #9D7E52;
   margin-bottom: 8px;
 }
 #project-detail-main .project-detail-container .content-container .main-section .heading-outer-container .heading-container .sub-heading {
