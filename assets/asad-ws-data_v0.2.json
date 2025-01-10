@@ -98,5 +98,29 @@
 				"title": null
 			}
 		]
+	},
+	"5": {
+		"_id": 5,
+		"title": "Revelame",
+		"about": "Revelame is an innovative platform that transforms your photos into personalized prints and products. The site showcases its services, helping users create memorable photo gifts and high-quality prints effortlessly.",
+		"url": "https://www.revelame.co/co/home/",
+		"sector": [
+			"Signature Website"
+		],
+		"scope": [
+			"Front-End Development"
+		],
+		"location": "Colombia",
+		"details": [
+			{
+				"type": "text",
+				"content": "Revelame is an online platform specializing in photo development and printing services, offering high-quality image printing for various personalized products. Their services likely include creating custom photo albums, wall art, calendars, and other unique keepsakes. Revelame caters to individuals seeking to preserve memories in tangible forms and personalize gifts with their photographs."
+			},
+			{
+				"type": "image",
+				"url": "/project-images/revelame/revelame.png",
+				"title": null
+			}
+		]
 	}
 }
