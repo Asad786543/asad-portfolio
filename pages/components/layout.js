@@ -42,7 +42,7 @@ const layout = ({ children }) => {
         >
           <Image 
             placeholder="blur"
-            src="/asad-portfolio.webp"
+            src="/asad-po.webp"
             alt="My Image"
             width={800}
             height={600}
