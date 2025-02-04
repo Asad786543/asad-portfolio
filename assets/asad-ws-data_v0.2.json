@@ -122,5 +122,53 @@
 				"title": null
 			}
 		]
+	},
+	"6": {
+		"_id": 6,
+		"title": "HealthyGo",
+		"about": "At HealthyGo, we transform your dining experience with delicious, nutritious, and convenient meals that nourish the body without compromising on taste. Whether you're aiming for a balanced diet or fitness goals, we have you covered.",
+		"url": "https://healthy-go.netlify.app/",
+		"sector": [
+			"health Website"
+		],
+		"scope": [
+			"Front-End Development"
+		],
+		"location": "Colombia",
+		"details": [
+			{
+				"type": "text",
+				"content": "I was responsible for developing the frontend of the HealthyGo website, utilizing HTML, Bootstrap, and jQuery to create an intuitive and visually appealing user interface. My role involved translating the initial design concepts into a fully functional, responsive layout that adapts seamlessly across various devices and screen sizes. From initial mockups to final deployment."
+			},
+			{
+				"type": "image",
+				"url": "/project-images/healthygo/healthygo.png",
+				"title": null
+			}
+		]
+	},
+	"7": {
+		"_id": 7,
+		"title": "GripGolf",
+		"about": "Grip Golf is your go-to golf academy, offering personalized, high-quality training in a comfortable and innovative environment.",
+		"url": "https://gripgolf.netlify.app/",
+		"sector": [
+			"Signature Website"
+		],
+		"scope": [
+			"Front-End Development"
+		],
+		"location": "JAPAN",
+		"details": [
+			{
+				"type": "text",
+				"content": "I was responsible for developing the frontend of the GripGolf website, utilizing HTML, Bootstrap, and jQuery to create a seamless and responsive user interface. My role involved transforming the design concepts into a functional, interactive layout that adapts flawlessly across various devices and screen sizes. I ensured the website delivered a user-friendly experience, focusing on smooth navigation, fast load times, and consistent design elements."
+			},
+			{
+				"type": "image",
+				"url": "/project-images/gripgolf/gripgolf.png",
+				"title": null
+			}
+		]
 	}
 }
