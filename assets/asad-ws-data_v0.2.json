@@ -1,6 +1,7 @@
 { 
     "0": {
         "_id": 0,
+		"image": "/project-images/glanceai/glanceai.png",
         "title": "GlanceAI",
         "about": "GlanceAI is an AI Chrome extension that provides key takeaways, summaries, and related links directly on webpages for efficient browsing.",
         "url": "https://www.glanceai.io/",
@@ -51,8 +52,8 @@
             }
         ]
     }, 
-	"3": {
-		"_id": 3,
+	"2": {
+		"_id": 2,
 		"title": "Ollacart",
 		"about": "Ollacart is an intuitive and user-friendly online store that seamlessly combines product browsing and purchasing. The website ensures smooth navigation and an efficient shopping experience for customers.",
 		"url": "https://ollacart-kuma1s-projects.vercel.app/",
@@ -75,8 +76,8 @@
 			}
 		]
 	},
-	"4": {
-		"_id": 4,
+	"3": {
+		"_id": 3,
 		"title": "Unbeatable Loans",
 		"about": "Unbeatable Loans is a powerful Chrome extension designed to help users find the best loan offers and monitor interest rates in real time. The landing page effectively highlights the extension’s core features and benefits for loan seekers.",
 		"url": "https://unbeatable-loans.vercel.app/",
@@ -99,8 +100,8 @@
 			}
 		]
 	},
-	"5": {
-		"_id": 5,
+	"4": {
+		"_id": 4,
 		"title": "Revelame",
 		"about": "Revelame is an innovative platform that transforms your photos into personalized prints and products. The site showcases its services, helping users create memorable photo gifts and high-quality prints effortlessly.",
 		"url": "https://www.revelame.co/co/home/",
@@ -123,8 +124,8 @@
 			}
 		]
 	},
-	"6": {
-		"_id": 6,
+	"5": {
+		"_id": 5,
 		"title": "HealthyGo",
 		"about": "At HealthyGo, we transform your dining experience with delicious, nutritious, and convenient meals that nourish the body without compromising on taste. Whether you're aiming for a balanced diet or fitness goals, we have you covered.",
 		"url": "https://healthy-go.netlify.app/",
@@ -147,8 +148,8 @@
 			}
 		]
 	},
-	"7": {
-		"_id": 7,
+	"6": {
+		"_id": 6,
 		"title": "GripGolf",
 		"about": "Grip Golf is your go-to golf academy, offering personalized, high-quality training in a comfortable and innovative environment.",
 		"url": "https://gripgolf.netlify.app/",

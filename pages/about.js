@@ -25,8 +25,7 @@ const about = () => {
 
 						  I started my tech career back in 2019 as an intern, learning frontend development. Since then, I&apos;ve worked at several companies, building everything from chrome extensions to SaaS platforms, websites, apps, and even AI web apps. My main focus is full-stack development with Next.js and React.js, but I can tackle almost any project that comes my way.
 
-        </p>
-           
+        </p>   
 
 </div>
            
