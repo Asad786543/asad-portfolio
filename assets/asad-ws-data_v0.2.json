@@ -171,5 +171,53 @@
 				"title": null
 			}
 		]
+	},
+	"7": {
+		"_id": 7,
+		"title": "CleanNarrative",
+		"about": "AI-Driven Report Generation: Produces professional incident reports swiftly, reducing the time spent on documentation",
+		"url": "https://clean-narrative.vercel.app/",
+		"sector": [
+			"AI-powered platform"
+		],
+		"scope": [
+			"Full Stack Development"
+		],
+		"location": "UK",
+		"details": [
+			{
+				"type": "text",
+				"content": "​The website CleanNarrative offers an AI-powered platform designed to assist professionals—such as law enforcement officers, paramedics, firefighters, and security personnel—in creating detailed and accurate incident reports efficiently."
+			},
+			{
+				"type": "image",
+				"url": "/project-images/cleannarrative/cleannarrative.png",
+				"title": null
+			}
+		]
+	},
+	"8": {
+		"_id": 8,
+		"title": "BlogGen",
+		"about": "​The website Bloggen.dev is an AI-powered content generation platform designed to help users create professional blog posts, comprehensive technical guides, and SEO-friendly JSON-LD markup.",
+		"url": "https://www.bloggen.dev/",
+		"sector": [
+			"AI-powered platform"
+		],
+		"scope": [
+			"Full Stack Development"
+		],
+		"location": "USA",
+		"details": [
+			{
+				"type": "text",
+				"content": "​​The website Bloggen.dev is an AI-powered content generation platform designed to help users create professional blog posts, comprehensive technical guides, and SEO-friendly JSON-LD markup. It offers tools for generating structured content, including blog posts, technical guides, and JSON-LD schemas, enhancing content creation efficiency and SEO optimization."
+			},
+			{
+				"type": "image",
+				"url": "/project-images/bloggen/bloggen.png",
+				"title": null
+			}
+		]
 	}
 }

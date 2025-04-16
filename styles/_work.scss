@@ -2,19 +2,21 @@
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
+  width: 100%;
   flex-direction: column;
-  width: 70%;
-  height: 100%;
   min-height: 100vh;
-  gap: 24px;
+  padding: 0;
   padding-left: 36px;
-  padding-top: 130px;
+  gap: 16px;
+  padding-top: 90px;
+  // overflow-y: auto;
+  max-height: 100vh;
 
   .heading {
     font-family: 'Noto Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 38px;
+    font-size: 42px;
     line-height: 113%;
     color: #99A29E;
     position: relative;
@@ -22,106 +24,123 @@
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: 1;
+    margin-top: 20px;
   }
 
   .work-container {
-    position: relative;
-    animation-name: slide-up;
-    animation-duration: 1s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: 1;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    width: 100%;
-    max-width: 800px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    width: 74%;
+    max-width: 100%;
+    // padding-right: 36px;
+    // padding-bottom: 36px;
+  }
+
+  .project-card {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    overflow: hidden;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    // height: 180px;
+
+    &:hover {
+      transform: translateY(-8px);
+      background: rgba(255, 255, 255, 0.05);
+      border-color: rgba(255, 255, 255, 0.2);
+
+      .view-project {
+        opacity: 1;
+        transform: translateX(0);
+        
+        svg {
+          transform: translateX(4px);
+          transition: transform 0.3s ease;
+        }
+      }
+    }
 
     a {
       text-decoration: none;
       width: 100%;
+      height: 100%;
+      display: block;
     }
 
-    .project-card {
+    .project-content {
+      padding: 16px;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .project-header {
       display: flex;
       justify-content: space-between;
-      align-items: center;
-      padding: 20px;
-      background: rgba(255, 255, 255, 0.02);
-      border: 1px solid rgba(255, 255, 255, 0.05);
-      border-radius: 8px;
-      cursor: pointer;
-      transition: all 0.3s ease;
+      align-items: flex-start;
+      gap: 16px;
 
-      &:hover {
-        background: rgba(255, 255, 255, 0.05);
-        transform: translateX(10px);
-
-        .project-title {
-          color: #fff;
-        }
-
-        .project-number {
-          color: #fff;
-        }
-      }
-
-      .project-content {
-        display: flex;
-        flex-direction: column;
-        // gap: 8px;
-
-        .project-title {
-          font-family: 'Noto Sans';
-          font-weight: 600;
-          font-size: 22px;
-          color: #ECEEED;
-          transition: color 0.3s ease;
-        }
-
-        .project-tech {
-          font-family: 'Noto Sans';
-          font-size: 14px;
-          color: #99A29E;
-          opacity: 0.8;
-        }
-      }
-
-      .project-number {
+      h3 {
         font-family: 'Noto Sans';
-        font-size: 24px;
-        font-weight: 500;
-        color: #99A29E;
-        opacity: 0.5;
-        transition: color 0.3s ease;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 120%;
+        color: #ECEEED;
+        margin: 0;
+        flex: 1;
       }
+
+      // .project-year {
+      //   font-size: 14px;
+      //   color: #99A29E;
+      //   padding: 6px 12px;
+      //   background: rgba(153, 162, 158, 0.1);
+      //   border-radius: 20px;
+      //   white-space: nowrap;
+      // }
     }
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  #work-main .work-container {
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   }
 }
 
 @media only screen and (max-width: 948px) {
   #work-main {
-    padding: 36px 22px !important;
-    gap: 22px;
-	width: 100% !important;
+    padding: 22px;
+    
     .heading {
-      font-size: 44px;
+      font-size: 36px;
     }
 
     .work-container {
-		max-width: 100% !important;
-      .project-card {
-        padding: 15px;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      width: 100% !important;
+    }
 
-        .project-content {
-          .project-title {
-            font-size: 24px;
-          }
-        }
-
-        .project-number {
-          font-size: 18px;
-        }
+    .project-card {
+      .project-header h3 {
+        font-size: 20px;
       }
+    }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #work-main {
+    padding: 16px;
+    
+    .heading {
+      font-size: 32px;
+    }
+
+    .work-container {
+      grid-template-columns: 1fr;
     }
   }
 }
